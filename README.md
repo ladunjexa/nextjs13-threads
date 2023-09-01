@@ -66,6 +66,8 @@ Threads web application, a social media platform that allows users to share thei
 ```
 nextjs13-threads/
 ├── app/
+├   ├── favicon.ico
+├   ├── globals.css
 ├   ├── (auth)/
 ├   ├   ├── onboarding/
 ├   ├   ├   └── page.tsx
@@ -75,6 +77,8 @@ nextjs13-threads/
 ├   ├   ├   └── page.tsx
 ├   ├   └── layout.tsx
 ├   ├── (root)/
+├   ├   ├── layout.tsx
+├   ├   ├── page.tsx
 ├   ├   ├── activity/
 ├   ├   ├   └── page.tsx
 ├   ├   ├── communities/
@@ -94,20 +98,16 @@ nextjs13-threads/
 ├   ├   ├       └── page.tsx
 ├   ├   ├── search/
 ├   ├   ├   └── page.tsx
-├   ├   ├── thread/
-├   ├   ├   ├── [id]/
-├   ├   ├   ├   └── page.tsx
-├   ├   ├   └── reactions/[id]/
-├   ├   ├       └── page.tsx
-├   ├   ├── layout.tsx
-├   ├   └── page.tsx
-├   ├── api/
-├   ├   ├── uploadthing/
-├   ├   ├   └── page.tsx
-├   ├   └── webhook/clerk/
-├   ├          └── route.tsx
-├   ├── favicon.ico
-├   └── globals.css
+├   ├   └── thread/
+├   ├       ├── [id]/
+├   ├       ├   └── page.tsx
+├   ├       └── reactions/[id]/
+├   ├           └── page.tsx
+├   └── api/
+├       ├── uploadthing/
+├       ├   └── page.tsx
+├       └── webhook/clerk/
+├              └── route.tsx
 ├── components/
 ├   ├── atoms/
 ├   ├   ├── CommunityCard.tsx
@@ -141,6 +141,9 @@ nextjs13-threads/
 ├── constants/
 ├   └── index.js
 ├── lib/
+├   ├── mongoose.ts
+├   ├── uploadthing.ts
+├   ├── utils.ts
 ├   ├── actions/
 ├   ├   ├── community.actions.ts
 ├   ├   ├── thread.actions.ts
@@ -149,17 +152,14 @@ nextjs13-threads/
 ├   ├   ├── community.model.ts
 ├   ├   ├── thread.model.ts
 ├   ├   └── user.model.ts
-├   ├── validations/
-├   ├   ├── thread.ts
-├   ├   └── user.ts
-├   ├── mongoose.ts
-├   ├── uploadthing.ts
-├   └── utils.ts
+├   └── validations/
+├       ├── thread.ts
+├       └── user.ts
 ├── public/
-├   ├── assets/
-├   ├   └── [[...]].svg
 ├   ├── next.svg
-├   └── vercel.svg
+├   ├── vercel.svg
+├   └── assets/
+├       └── [[...]].svg
 ├── components.json
 ├── middleware.ts
 ├── next.config.ts
@@ -200,13 +200,14 @@ This is a JavaScript code contains all the constants used in the application, sp
 
 `actions/` - `models/` - `validations/` - `mongoose.ts` - `uploadthing.ts` - `utils.ts`
 
-The **lib** folder holds crucial components for _Threads App_:
-**actions**: Manage actions for Community, Thread, and User entities using Mongoose for database interaction.
-**models**: Define mongoose schemas for Community, Thread, and User entities.
-**validations**: Provide validation schemas with Zod for Thread and User data.
-**mongoose.ts**: Establishes and manages MongoDB connections for the application.
-**uploadthing.ts**: Offers a React utility for simplified file uploads to UploadThing.
-**utils.ts**: Contains various reusable utility functions.
+The **lib** folder holds crucial components for _Threads App_:\
+
+- **actions**: Manage actions for Community, Thread, and User entities using Mongoose for database interaction.\
+- **models**: Define mongoose schemas for Community, Thread, and User entities.\
+- **validations**: Provide validation schemas with Zod for Thread and User data.\
+- **mongoose.ts**: Establishes and manages MongoDB connections for the application.\
+- **uploadthing.ts**: Offers a React utility for simplified file uploads to UploadThing.\
+- **utils.ts**: Contains various reusable utility functions.
 
 #### public
 
