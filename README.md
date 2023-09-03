@@ -200,13 +200,13 @@ This is a JavaScript code contains all the constants used in the application, sp
 
 `actions/` - `models/` - `validations/` - `mongoose.ts` - `uploadthing.ts` - `utils.ts`
 
-The **lib** folder holds crucial components for _Threads App_:\
+The **lib** folder holds crucial components for _Threads App_:
 
-- **actions**: Manage actions for Community, Thread, and User entities using Mongoose for database interaction.\
-- **models**: Define mongoose schemas for Community, Thread, and User entities.\
-- **validations**: Provide validation schemas with Zod for Thread and User data.\
-- **mongoose.ts**: Establishes and manages MongoDB connections for the application.\
-- **uploadthing.ts**: Offers a React utility for simplified file uploads to UploadThing.\
+- **actions**: Manage actions for Community, Thread, and User entities using Mongoose for database interaction.
+- **models**: Define mongoose schemas for Community, Thread, and User entities.
+- **validations**: Provide validation schemas with Zod for Thread and User data.
+- **mongoose.ts**: Establishes and manages MongoDB connections for the application.
+- **uploadthing.ts**: Offers a React utility for simplified file uploads to UploadThing.
 - **utils.ts**: Contains various reusable utility functions.
 
 #### public
