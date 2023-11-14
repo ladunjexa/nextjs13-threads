@@ -1,69 +1,35 @@
-<a name="readme-top"></a>
+# Project Title
 
-<p align="center">
-<img src="https://github.com/ladunjexa/nextjs13-threads/blob/main/public/assets/logo.svg?raw=true" width="10%" />
-</p>
-<p align="center">
-<!-- Badges -->
-  <a href="https://github.com/ladunjexa">
-    <img src="https://custom-icon-badges.demolab.com/badge/made%20by%20-ladunjexa-556bf2?style=flat-square&logo=github&logoColor=white&labelColor=101827" alt="made by @ladunjexa" />
-  </a>
-  <a href="https://github.com/ladunjexa/nextjs13-threads/blob/master/LICENSE">
-    <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="license" />
-  </a>
-  <a href="https://github.com/ladunjexa/nextjs13-threads/graphs/contributors">
-    <img src="https://img.shields.io/github/contributors/ladunjexa/nextjs13-threads" alt="contributors" />
-  </a>
-  <a href="">
-    <img src="https://img.shields.io/github/last-commit/ladunjexa/nextjs13-threads" alt="last update" />
-  </a>
-  <a href="https://github.com/ladunjexa/nextjs13-threads/network/members">
-    <img src="https://img.shields.io/github/forks/ladunjexa/nextjs13-threads" alt="forks" />
-  </a>
-  <a href="https://github.com/ladunjexa/nextjs13-threads/stargazers">
-    <img src="https://img.shields.io/github/stars/ladunjexa/nextjs13-threads" alt="stars" />
-  </a>
-  <a href="https://github.com/ladunjexa/nextjs13-threads/issues/">
-    <img src="https://img.shields.io/github/issues/ladunjexa/nextjs13-threads" alt="open issues" />
-  </a>
-  <a href="https://github.com/ladunjexa/nextjs13-threads/issues/">
-    <img src="https://img.shields.io/badge/PRs-welcome-pink.svg" alt="prs welcome" />
-  </a>
-</p>
+<!-- GitHub badges -->
 
-<h1 align="center">NextJS Threads</h1>
+[![Latest release](https://img.shields.io/github/v/release/ladunjexa/nextjs13-threads?label=Latest%20release&style=social)](https://github.com/ladunjexa/nextjs13-threads/releases/tag/v0.1.0)
+[![Stars](https://img.shields.io/github/stars/ladunjexa/nextjs13-threads?style=social)](https://github.com/ladunjexa/nextjs13-threads/stargazers)
+[![Fork](https://img.shields.io/github/forks/ladunjexa/nextjs13-threads?style=social)](https://github.com/ladunjexa/nextjs13-threads/forks)
+[![GitHub commits](https://img.shields.io/github/commit-activity/t/ladunjexa/nextjs13-threads?style=social&logo=github)](https://github.com/ladunjexa/nextjs13-threads/commits)
+[![Pull requests](https://img.shields.io/github/issues-pr/ladunjexa/nextjs13-threads?style=social&logo=github)](https://github.com/ladunjexa/nextjs13-threads/pulls)
+
+![demo](https://i.ibb.co/2dSC0TQ/Thumbnail-1.png)
+
+[![ladunjexa](https://custom-icon-badges.demolab.com/badge/made%20by%20-ladunjexa-556bf2?logo=github&logoColor=white&labelColor=101827)](https://github.com/luadnjexa)
+[![License](https://img.shields.io/github/license/ladunjexa/nextjs13-threads?color=dddddd&labelColor=000000)](https://github.com/ladunjexa/nextjs13-threads/blob/main/LICENSE)
+[![Top Language](https://img.shields.io/github/languages/top/ladunjexa/nextjs13-threads?logo=github&logoColor=%23007ACC&label=TypeScript)](https://www.typescriptlang.org/)
+[![Contributors](https://img.shields.io/github/contributors/ladunjexa/nextjs13-threads?style=flat&color=orange&label=Contributors)](https://github.com/ladunjexa/nextjs13-threads/graphs/contributors)
+![Release](https://img.shields.io/github/release/ladunjexa/nextjs13-threads.svg)
+![PRs](https://img.shields.io/badge/PRs-welcome-ff69b4.svg?style=shields)
+![deployment](https://img.shields.io/github/deployments/ladunjexa/nextjs13-threads/Production?logo=vercel&label=Website)
+[![Known Vulnerabilities](https://snyk.io/test/github/ladunjexa/nextjs13-threads/badge.svg)](https://snyk.io/test/github/ladunjexa/nextjs13-threads)
+
+## 🌐 Live Demo
+
+Explore the live demonstration of the project: [nextjs13-threads](https://nextjs13-threads.vercel.app/)
+
+## 📝 Description
 
 Threads web application, a social media platform that allows users to share their thoughts, with their friends and family. Threads is a full-stack web application built with TypeScript using Next.js 13 with Server Side Rendering. It uses MongoDB as a database, and Clerk as an authentication provider. It also uses UploadThing to upload images to the cloud. The application is styled with Tailwind CSS and Shadcn components.
 
-#### [View Demo](https://nextjs13-threads.vercel.app/)
+<details><summary><b>Folder Structure</b></summary>
 
-## Table of Contents
-
-- [Introduction](#star2-introduction)
-  - [Folder Structure](#folder-structure)
-- [Technologies Used](#space_invader-technologies-used)
-- [Features](#mountain_bicyclist-features)
-- [Environment Variables](#key-environment-variables)
-- [Getting Started](#toolbox-getting-started)
-  - [Installation and Run Locally](#gear-installation-and-run-locally)
-  - [Getting Started](#beer-getting-started)
-  - [Learn More](#learn-more)
-  - [Deploy on Vercel](#deploy-on-vercel)
-  - [Additional Resources](#additional-resources)
-- [Screenshots](#camera-screenshots)
-- [Contributing](#wave-contributing)
-- [License](#warning-license)
-- [Contact](#handshake-contact)
-
-## :star2: Introduction
-
-Threads web application, a social media platform that allows users to share their thoughts, with their friends and family. Threads is a full-stack web application built with TypeScript using Next.js 13 with Server Side Rendering. It uses MongoDB as a database, and Clerk as an authentication provider. It also uses UploadThing to upload images to the cloud. The application is styled with Tailwind CSS and Shadcn components.
-
-### Folder Structure
-
-<b>Threads</b> code folder structure is as follows:
-
-```
+```bash
 nextjs13-threads/
 ├── app/
 ├   ├── favicon.ico
@@ -170,9 +136,11 @@ nextjs13-threads/
 └── tsconfig.ts
 ```
 
-Now let's dive into each folder and see what it contains.
+</details><br/>
 
-#### app
+<details><summary><b>Dive into each folder and see what they contain</b></summary>
+
+#### `app/`
 
 `(auth)/` - `(root)/` - `(api)/`
 
@@ -181,22 +149,23 @@ In the app directory, nested folders are normally mapped to URL paths. However, 
 This allows you to organize your route segments and project files into logical groups without affecting the URL path structure.
 
 For example,
+
 <img src="https://nextjs.org/_next/image?url=%2Fdocs%2Fdark%2Froute-group-organisation.png&w=1920&q=75&dpl=dpl_5QyHJTqH6oRYZ4QJMFM7s3b9DHZZ" width="50%" />
 
-#### components
+#### `components/`
 
 `atoms/` - `cards/` - `forms/` - `shared/` - `ui/`
 
 The components directory contains all the components used in the application. The components are grouped into atoms, cards, forms, shared and ui.
 the `ui` folder generated by `shadcn/ui` package and contains all the required shadcn components that used in the application.
 
-#### constants
+#### `constants/`
 
 `index.js`
 
 This is a JavaScript code contains all the constants used in the application, specifically the Sidebar Navigation (`sidebarLinks`), Profile Tabs (`profileTabs`) and Community Tabs (`communityTabs`) constants.
 
-#### lib
+#### `lib/`
 
 `actions/` - `models/` - `validations/` - `mongoose.ts` - `uploadthing.ts` - `utils.ts`
 
@@ -209,17 +178,44 @@ The **lib** folder holds crucial components for _Threads App_:
 - **uploadthing.ts**: Offers a React utility for simplified file uploads to UploadThing.
 - **utils.ts**: Contains various reusable utility functions.
 
-#### public
+#### `public/`
 
 `assets/` - `next.svg` - `vercel.svg`
 
 The public directory contains the media used in the application. The assets folder contains all the images used in the application.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+</details>
 
-## :space_invader: Technologies Used
+## 📖 Table of Contents
 
-Threads web application is built using the following technologies:
+<details><summary>Table of Contents</summary>
+
+- [Live Demo](#-live-demo)
+- [Description](#-description)
+- [Technologies Used](#-technologies-used)
+- [Get Started](#-get-started)
+  - [Prerequisites](#-prerequisites)
+  - [Installation and Run Locally](#-installation-and-run-locally)
+  - [Scripts](#-scripts)
+- [Environment Variables](#-environment-variables)
+- [Deployment](#-deployment)
+  - [Deploy to production (manual)](#-deploy-to-production-manual)
+  - [Deploy on Vercel (recommended)](#-deploy-on-vercel-recommended)
+  - [Deploy on Netlify](#-deploy-on-netlify)
+- [Features](#-features)
+- [Screenshots](#-screenshots)
+- [Contributing](#-contributing)
+  - [Bug / Feature Request](#-bug--feature-request)
+- [Acknowledgements](#-acknowledgements)
+- [References](#-references)
+- [Contact Us](#-contact-us)
+- [License](#-license)
+
+</details>
+
+## ✨ Technologies Used
+
+<details><summary><b>Threads</b> is built using the following technologies:</summary>
 
 - [TypeScript](https://www.typescriptlang.org/): TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.
 - [Next.js](https://nextjs.org/): Next.js is a React framework for building server-side rendered and statically generated web applications.
@@ -233,17 +229,130 @@ Threads web application is built using the following technologies:
 - [svix](https://svix.com/): Svix is a webhook proxy that allows you to receive webhooks locally.
 - [Vercel](https://vercel.com/): Vercel is a cloud platform for frontend developers, providing the frameworks, workflows, and infrastructure to build a faster, more personalized Web.
 
-[![tech](https://skillicons.dev/icons?i=ts,nextjs,tailwind,mongodb,vercel)](https://skillicons.dev)
+</details><br/>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+[![Technologies Used](https://skillicons.dev/icons?i=ts,nextjs,tailwind,mongodb,vercel)](https://skillicons.dev)
 
-## :mountain_bicyclist: Features
+## 🧰 Get Started
+
+To get this project up and running in your development environment, follow these step-by-step instructions.
+
+### 📋 Prerequisites
+
+In order to install and run this project locally, you would need to have the following installed on your local machine.
+
+- [Node.js](https://nodejs.org/en/)
+- [NPM](https://www.npmjs.com/get-npm)
+- [Git](https://git-scm.com/downloads)
+- [MongoDB](https://www.mongodb.com/try/download/community)
+
+### ⚙️ Installation and Run Locally
+
+**Step 0:**
+
+Note :bangbang: the application uses Clerk for Authentication and User Management, therefore, you need to create Clerk account [here](https://clerk.dev/) and sets the `CLERK_PUBLISHABLE_KEY` and `CLERK_SECRET_KEY` environment variables in `.env` file. Also, the different URLs for the Clerk sign-in, sign-up, after sign-in and after sign-up pages.
+
+Note :bangbang: the application uses a MongoDB database, therefore, you need to create a database and connect it to the application, for this, change the `MONGODB_URL` environment variable in `.env` file located in `server` folder.
+
+Note :bangbang: the application uses a UploadThing Cloud, therefore, you need to create UploadThing account [here](https://uploadthing.com/) and sets the `UPLOADTHING_SECRET` and `UPLOADTHING_APP_ID` environment variables in `.env` file.
+
+After following all the instructions above, we'll want to create a new webhook on Clerk. To do this, go to the [Clerk Dashboard](https://dashboard.clerk.dev/), click on the "Webhooks" tab, and then click "Add Endpoint". For the Endpoint URL, enter `http://<PASTE-YOUR-LINK-HERE>/api/webhook/clerk`. For the evetnts, select the "organization", "organizationDomain", "organizationInvitation" and "organizationMembership". Then click "Create" to create the webhook. get the signing secret and set it as `CLERK_WEBHOOK_SECRET` environment variable in `.env` file.
+
+**Step 1:**
+
+Download or clone this repo by using the link below:
+
+```bash
+git clone https://github.com/ladunjexa/nextjs13-threads.git
+```
+
+**Step 2:**
+
+Execute the following command in the root directory of the downloaded repo in order to install dependencies:
+
+```bash
+npm install
+```
+
+**Step 3:**
+
+Execute the following command in order to run the development server locally:
+
+```bash
+npm run dev
+```
+
+**Step 4:**
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+### 📜 Scripts
+
+All scripts are defined in the `package.json` file. Here is a list of all scripts:
+
+| Script          | Action                                      |
+| :-------------- | :------------------------------------------ |
+| `npm install`   | Installs dependencies                       |
+| `npm run dev`   | Starts local dev server at `localhost:3000` |
+| `npm run build` | Build your production site to `./dist/`     |
+| `npm run start` | Start your production site locally          |
+| `npm run lint`  | Run ESLint                                  |
+
+## 🔒 Environment Variables
+
+Environment variables[^10] can be used for configuration. They must be set before running the app.
+
+> [Environment variables](https://en.wikipedia.org/wiki/Environment_variable) are variables that are set in the operating system or shell, typically used to configure programs.
+
+**Threads** uses [Clerk](https://clerk.com), [UploadThing](https://uploadthing.com/), and [MongoDB](https://mongodb.com) as external services. You need to create an account on each of these services and get the required credentials to run the app.
+
+Create a `.env` file in the root directory of the project and add the following environment variables:
+
+```env
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=<CLERK_PUBLISHABLE_KEY>
+CLERK_SECRET_KEY=<CLERK_SECRET_KEY>
+NEXT_CLERK_WEBHOOK_SECRET=<CLERK_WEBHOOK_SECRET>
+
+NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/onboarding
+NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/
+
+MONGODB_URL=<MONGODB_URL>
+
+UPLOADTHING_SECRET=<UPLOADTHING_SECRET>
+UPLOADTHING_APP_ID=<UPLOADTHING_APP_ID>
+```
+
+## 🚀 Deployment
+
+#### Deploy to production (manual)
+
+You can create an optimized production build with the following command:
+
+```bash
+npm run build
+```
+
+#### Deploy on Vercel (recommended)
+
+The easiest way to deploy this Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme).
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fladunjexa%2Fnextjs13-threads)
+
+#### Deploy on Netlify
+
+You can also deploy this Next.js app with [Netlify](https://www.netlify.com/).
+
+[![Deploy with Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ladunjexa/nextjs13-threads)
+
+Check out [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## 💡 Features
 
 Threads web application comes with the following features:
 
-- [x] CRUD Threads
-- [x] CRUD Communities
-- [x] CRU Profiles
+- [x] [CRUD](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete) Threads, Communities and Profiles
 - [x] Like Threads
 - [x] Multi-level Comment Threads
 - [x] Follow Profiles
@@ -275,191 +384,122 @@ In terms of technical features, Threads web application comes with the following
 
 and much more..
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## 🤳 Screenshots
 
-## :key: Environment Variables
+#### Sign In
 
-Threads web application uses Clerk, UploadThing and MongoDB to handle authentication and user management, file upload and database. Therefore, you need to create accounts on Clerk, UploadThing and MongoDB and get your API keys and add them to the environment variables in the .env file.
-
-To run this project, you will need to add the following environment variables to your .env file
-
-```env
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=<CLERK_PUBLISHABLE_KEY>
-CLERK_SECRET_KEY=<CLERK_SECRET_KEY>
-NEXT_CLERK_WEBHOOK_SECRET=<CLERK_WEBHOOK_SECRET>
-
-NEXT_PUBLIC_CLERK_SIGN_IN_URL=<CLERK_SIGN_IN_URL>
-NEXT_PUBLIC_CLERK_SIGN_UP_URL=<CLERK_SIGN_UP_URL>
-NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=<CLERK_AFTER_SIGN_IN_URL>
-NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=<CLERK_AFTER_SIGN_UP_URL>
-
-MONGODB_URL=<MONGODB_URL>
-UPLOADTHING_SECRET=<UPLOADTHING_SECRET>
-UPLOADTHING_APP_ID=<UPLOADTHING_APP_ID>
-
-```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## :toolbox: Getting Started
-
-<!-- Installation -->
-
-### :gear: Installation and Run Locally
-
-#### Step 0:
-
-Note :bangbang: the application uses Clerk for Authentication and User Management, therefore, you need to create Clerk account [here](https://clerk.dev/) and sets the `CLERK_PUBLISHABLE_KEY` and `CLERK_SECRET_KEY` environment variables in `.env` file. Also, the different URLs for the Clerk sign-in, sign-up, after sign-in and after sign-up pages.
-
-Note :bangbang: the application uses a MongoDB database, therefore, you need to create a database and connect it to the application, for this, change the `MONGODB_URL` environment variable in `.env` file located in `server` folder.
-
-Note :bangbang: the application uses a UploadThing Cloud, therefore, you need to create UploadThing account [here](https://uploadthing.com/) and sets the `UPLOADTHING_SECRET` and `UPLOADTHING_APP_ID` environment variables in `.env` file.
-
-After following all the instructions above, we'll want to create a new webhook on Clerk. To do this, go to the [Clerk Dashboard](https://dashboard.clerk.dev/), click on the "Webhooks" tab, and then click "Add Endpoint". For the Endpoint URL, enter `http://<PASTE-YOUR-LINK-HERE>/api/webhook/clerk`. For the evetnts, select the "organization", "organizationDomain", "organizationInvitation" and "organizationMembership". Then click "Create" to create the webhook. get the signing secret and set it as `CLERK_WEBHOOK_SECRET` environment variable in `.env` file.
-
-#### Step 1:
-
-Download or clone this repo by using the link below:
-
-```bash
- https://github.com/ladunjexa/nextjs13-threads.git
-```
-
-#### Step 2:
-
-**Threads** using NPM (Node Package Manager), therefore, make sure that Node.js is installed by execute the following command in consle
-
-```bash
-  node -v
-```
-
-#### Step 3:
-
-Go to root folder and execute the following command in console to get nodemon the required packages:
-
-```bash
-npm install
-```
-
-#### Step 4:
-
-Go to root folder and execute the following command in console to start the application locally:
-
-```bash
-npm run dev
-```
-
-### :beer: Getting Started
-
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-### Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-### Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-
-### Additional Resources
-
-For additional resources on working with Clerk, MongoDB and Shadcn, refer to the official documentation.
-
-- [Clerk](https://docs.clerk.dev/)
-- [MongoDB](https://docs.mongodb.com/)
-- [Shadcn](https://ui.shadcn.com/docs)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## :camera: Screenshots
-### Sign In
 ![SignIn](.github/assets/sign-in.png)
-### Sign Up
+
+#### Sign Up
+
 ![SignUp](.github/assets/sign-up.png)
-### Onboarding
+
+#### Onboarding
+
 ![Onboarding](.github/assets/onboarding.png)
-### Home
+
+#### Home
+
 ![Home](.github/assets/home.png)
-### Explore
+
+#### Explore
+
 ![Explore](.github/assets/explore.png)
-### Search
+
+#### Search
+
 ![Search](.github/assets/search.png)
-### Activity
+
+#### Activity
+
 ![Activity](.github/assets/activity.png)
-### Create Thread
+
+#### Create Thread
+
 ![CreateThread](.github/assets/create-thread.png)
-### Communities
+
+#### Communities
+
 ![Communities](.github/assets/communities.png)
-### My Profile
+
+#### My Profile
+
 ![Profile](.github/assets/my-profile.png)
 ![FollowersTab](.github/assets/my-profile-followers-tab.png)
-### Edit Profile
+
+#### Edit Profile
+
 ![EditProfile](.github/assets/edit-profile.png)
-### User Profile
+
+#### User Profile
+
 ![UserProfile](.github/assets/user-profile.png)
-### Create Organization
+
+#### Create Organization
+
 ![CreateOrg](.github/assets/create-organization.png)
-### Community Profile
+
+#### Community Profile
+
 ![ComProfile](.github/assets/community-profile.png)
-### Thread Page
+
+#### Thread Page
+
 ![ThreadPage](.github/assets/thread-page.png)
-### Thread Likes Page
+
+#### Thread Likes Page
+
 ![ThreadLikesPage](.github/assets/thread-likes-page.png)
 
-## :wave: Contributing
+## 🔧 Contributing
 
-<a href="https://github.com/ladunjexa/Rainblur-Portfolio-Showcase/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ladunjexa/Job-Platform-App" />
-</a>
-
-Contributions are always welcome!
-
-See [`contributing.md`](https://contributing.md/) for ways to get started.
+[![contributors](https://contrib.rocks/image?repo=ladunjexa/nextjs13-threads)](https://github.com/ladunjexa/nextjs13-threads/graphs/contributors)
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
+To fix a bug or enhance an existing module, follow these steps:
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+1. Fork the repo
+2. Create a new branch (`git checkout -b improve-feature`)
+3. Make the appropriate changes in the files
+4. Commit your changes (`git commit -am 'Improve feature'`)
+5. Push to the branch (`git push origin improve-feature`)
+6. Create a Pull Request 🎉
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+### 📩 Bug / Feature Request
 
-## :warning: License
+If you find a bug (failure of a module to execute its intended function), kindly open an issue [here](https://github.com/ladunjexa/nextjs13-threads/issues/new) by including the issue with a title and clear description.
 
-_Threads_ web application is open source and distributed under the [MIT License](LICENSE).
+If you'd like to request a new function, feel free to do so by opening an issue [here](https://github.com/ladunjexa/nextjs13-threads/issues/new). Please include sample queries and their corresponding results.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## 💎 Acknowledgements
 
-## :handshake: Contact
+I'd like to express my gratitude to the following people who helped me with this project and made it possible:
 
-If you want to contact me, you can reach me at [@ladunjexa](https://t.me/ladunjexa).
+- [Clerk](https://clerk.dev/)
+- [UploadThing](https://uploadthingy.com/)
+- [MongoDB](https://mongodb.com)
+- [Mongoose](https://mongoosejs.com/)
+- [Zod](https://zod.dev/)
+- [Shadcn](https://shadcn.com/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Svix](https://svix.com/)
+- [Vercel](https://vercel.com/)
+- [JavaScript Mastery](https://www.jsmastery.pro/)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## 📚 References
+
+Adrian Hajdin. (2023). [Build and Deploy a Full Stack MERN Next.js 13 Threads App | React, Next JS, TypeScript, MongoDB](https://www.youtube.com/watch?v=O5cmLDVTgAs&t=2577s). YouTube.
+
+## 📞 Contact Us
+
+[![Telegram](https://img.shields.io/badge/Telegram-@ladunjexa-2CA5E0?style=social&logo=telegram&logoColor=000000)](https://t.me/ladunjexa)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-ladunjexa-blue?style=flat&logo=linkedin&logoColor=b0c0c0&labelColor=363D44)](https://www.linkedin.com/in/lironabutbul)
+[![Instagram](https://img.shields.io/badge/Instagram-ladunjexa-grey?style=flat&logo=instagram&logoColor=b0c0c0&labelColor=8134af)](https://www.instagram.com/ladunjexa)
+[![Discord](https://img.shields.io/badge/Discord-ladunjexa-7289da?style=flat&logo=discord&logoColor=b0c0c0&labelColor=2c2f33)](https://discord.com/users/827996364331810816)
+
+<!-- [![Twitter](https://img.shields.io/twitter/follow/ladunjexa.svg?style=social)](https://twitter.com/intent/follow?screen_name=ladunjexa) -->
+
+## 📋 License
+
+**Threads** is open source software [licensed as MIT](https://opensource.org/license/mit/) and is free to use — See [LICENSE](https://github.com/ladunjexa/nextjs13-threads/blob/main/LICENSE) for more details.
