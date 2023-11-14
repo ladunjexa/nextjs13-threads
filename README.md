@@ -136,7 +136,7 @@ nextjs13-threads/
 └── tsconfig.ts
 ```
 
-</details><br/>
+</details>
 
 <details><summary><b>Dive into each folder and see what they contain</b></summary>
 
